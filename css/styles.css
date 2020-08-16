@@ -1,0 +1,77 @@
+body {
+  background-color: #fbd46d;
+  color: #07031a;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  font-weight: 900;
+  margin: 2% 0 0;
+}
+
+h3, h4 {
+  font-family: "Roboto Slab", serif;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+button {
+  margin: 10px 0 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+/* Table */
+#table {
+  text-align: center;
+}
+
+/* Players */
+article {
+  display: inline-block;
+  background-color: #4f8a8b;
+  border-radius: 3%;
+  padding: 1% 2%;
+  margin: 2% 2%;
+}
+
+#player1-draw {
+  
+}
+
+#player2-draw {
+
+}
+
+/* Card */
+.hand {
+
+}
+
+.card {
+  display: inline-block;
+}
+
+.card-image {
+  width: 100px;
+  display: inline-block;
+  border-radius: 8%;
+  margin: 0 5px;
+}
+
+.card-image:hover {
+  width: 94px;
+  border: 3px solid #07031a;
+}
+
+.selected {
+  width: 94px;
+  border: 3px solid #07031a;
+}
+
+/* Deal */
+.deal-area {
+  display: inline-block;
+}
